@@ -82,6 +82,7 @@ header nav:hover > a:not(:hover) {
     border: 8px solid white; 
     display: inline-block; 
     padding: 0px; 
+    border-radius: 10px;
 }
 footer{
     display: flex;
@@ -116,4 +117,13 @@ input{
 }
 button{
     width: 40%;
+}
+.image-container2{
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.image-container2 img {
+    display: block;
+    margin: 0 auto;
 }
